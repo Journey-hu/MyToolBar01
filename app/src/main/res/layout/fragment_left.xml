@@ -1,0 +1,49 @@
+<LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:id="@+id/contents_left"
+             tools:context="com.github.lmydev.mytoolbar01.LeftFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_getnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/button_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go EditActivity"/>
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:text="保护方式方式几号放假多少烦不烦烦不烦不离开的浪费粮食分数段分布保护方式方式几号放假多少烦不烦烦不烦不离开的浪费粮食分数段分布的版本发货吧热播本本分分不大部分六六大顺浪费的事房价放假开会的版本发货吧热播本本分分不大部分六六大顺浪费的事房价放假开会" />
+
+    <Button
+        android:id="@+id/button_look"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐藏/查看" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>

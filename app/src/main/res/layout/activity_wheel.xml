@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.lmydev.mytoolbar01.WheelActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/main_wv"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_marginTop="72dp"
+            android:textSize="20sp"
+            android:text="TextView"/>
+    </RelativeLayout>
+
+
+    <com.wx.wheelview.widget.WheelView
+        android:id="@+id/main_wv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <com.weigan.loopview.LoopView
+        android:layout_marginTop="50dp"
+        android:id="@+id/loopView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:awv_textsize="20"
+        />
+
+
+
+
+
+</LinearLayout>

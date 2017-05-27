@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyToolBar01</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello to left fragment</string>
+    <string name="hello_blank_fragment2">Hello to right fragment</string>
+</resources>
